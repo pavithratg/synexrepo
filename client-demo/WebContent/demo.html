@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+
+<script type="text/javascript">
+function add(){
+	window.location.href = "add.html";
+}
+
+function update(){
+	window.location.href = "update.html";
+}
+
+function del(){
+	window.location.href = "delete.html";
+}
+</script>
+<form onsubmit="event.preventDefault();">
+<button onclick="add();">add</button>
+<button onclick="update();">update</button>
+<button onclick="del();">delete</button>
+</form>
+</body>
+</html>
